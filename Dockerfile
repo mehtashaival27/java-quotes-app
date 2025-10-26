@@ -1,4 +1,4 @@
-# 1 Base Image (OS)
+# 1 Base Image (Operating System)
 
 FROM openjdk:17-jdk-alpine
 
@@ -6,7 +6,7 @@ FROM openjdk:17-jdk-alpine
 
 WORKDIR /app
 
-# 3 COPY the code from your HOST to your container (working directory)
+# 3 COPY code from your HOST to your container (working directory)
 
 COPY src/Main.java /app/Main.java
 COPY quotes.txt quotes.txt
